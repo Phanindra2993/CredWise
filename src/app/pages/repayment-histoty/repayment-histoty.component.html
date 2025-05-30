@@ -1,0 +1,36 @@
+<div class="repayment-history-container">
+  <h2>Repayment History</h2>
+  <table class="repayment-history-table" *ngIf="repaymentHistory?.length; else noData">
+    <thead>
+      <tr>
+        <th>Transaction ID</th>
+        <th>Loan Application ID</th>
+        <th>Repayment ID</th>
+        <th>Amount</th>
+        <th>Payment Date</th>
+        <th>Payment Method</th>
+        <th>Status</th>
+        <th>Reference</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let tx of repaymentHistory">
+        <td>{{ tx.transactionId }}</td>
+        <td>{{ tx.loanApplicationId }}</td>
+        <td>{{ tx.repaymentId }}</td>
+        <td>₹{{ tx.amount | number:'1.0-2' }}</td>
+        <td>{{ tx.paymentDate ? (tx.paymentDate | date:'mediumDate') : '-' }}</td>
+        <td>{{ tx.paymentMethod }}</td>
+        <td>
+          <span class="status-badge" [ngClass]="tx.status?.toLowerCase()">
+            {{ tx.status }}
+          </span>
+        </td>
+        <td>{{ tx.reference || '-' }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <ng-template #noData>
+    <div class="no-data">No repayment history found.</div>
+  </ng-template>
+</div>

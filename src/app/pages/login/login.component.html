@@ -1,0 +1,55 @@
+<div class="form-container">
+  <nz-card nzTitle="Welcome Back" [nzBordered]="false" class="form-card">
+    <form nz-form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="emailErrorTpl">
+          <input
+            nz-input
+            formControlName="email"
+            placeholder="Email"
+            type="email"
+          />
+          <ng-template #emailErrorTpl let-control>
+            @if (control.errors?.['required']) { Email is required } @if
+            (control.errors?.['email']) { Invalid email format }
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="passwordErrorTpl">
+          <nz-input-group [nzSuffix]="suffixTemplate">
+            <input
+              nz-input
+              formControlName="password"
+              placeholder="Password"
+              [type]="hidePassword ? 'password' : 'text'"
+            />
+          </nz-input-group>
+
+          <ng-template #suffixTemplate>
+            <i
+              [class]="hidePassword ? 'far fa-eye-slash' : 'far fa-eye'"
+              class="password-icon"
+              (click)="hidePassword = !hidePassword"
+              style="padding-right: 10px;"
+
+            ></i>
+          </ng-template>
+
+          <ng-template #passwordErrorTpl let-control>
+            @if (control.errors?.['required']) { Password is required }
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <button nz-button nzType="primary" nzBlock [disabled]="loginForm.invalid">
+        Login
+      </button>
+    </form>
+
+    <div class="auth-footer">
+      Don't have an account? <a routerLink="/register">Register</a>
+    </div>
+  </nz-card>
+</div>

@@ -1,0 +1,253 @@
+<div class="apply-form-container">
+  <h2>Loan Application Form</h2>
+  
+  <form [formGroup]="loanForm" (ngSubmit)="submitForm()">
+    <!-- Loan Type Selection -->
+    <div class="form-section" *ngIf="!loanType">
+      <h3>Select Loan Type</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Loan Type</label>
+          <select formControlName="loanType" class="loan-type-select">
+            <option value="">Select a loan type</option>
+            <option *ngFor="let type of availableLoanTypes" [value]="type.value">
+              {{type.label}}
+            </option>
+          </select>
+          <div class="error-message" *ngIf="(submitted || loanForm.get('loanType')?.touched) && loanForm.get('loanType')?.errors">
+            {{getErrorMessage('loanType')}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-section" *ngIf="loanType">
+      <h3>Loan Type</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <!-- <label>Loan Type</label> -->
+          <input type="text" [value]="loanType" disabled class="loan-type-select" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Common Fields -->
+    <div class="form-section" *ngIf="loanType">
+      <h3>Personal Details</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Gender</label>
+          <select formControlName="gender">
+            <option value="">Select</option>
+     
+            <option *ngFor="let opt of genderOptions" [value]="opt.value">{{ opt.label }}</option>
+          </select>
+          <div class="error-message" *ngIf="(submitted || loanForm.get('gender')?.touched) && loanForm.get('gender')?.errors">
+            {{getErrorMessage('gender')}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Date of Birth</label>
+          <input type="date" formControlName="dob">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('dob')?.touched) && loanForm.get('dob')?.errors">
+            {{getErrorMessage('dob')}}
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Aadhaar</label>
+          <input type="text" formControlName="aadhaar" maxlength="12">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('aadhaar')?.touched) && loanForm.get('aadhaar')?.errors">
+            {{getErrorMessage('aadhaar')}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Address</label>
+          <textarea formControlName="address" maxlength="500"></textarea>
+          <div class="error-message" *ngIf="(submitted || loanForm.get('address')?.touched) && loanForm.get('address')?.errors">
+            {{getErrorMessage('address')}}
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Income (₹)</label>
+          <input type="number" formControlName="income">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('income')?.touched) && loanForm.get('income')?.errors">
+            {{getErrorMessage('income')}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Employment Type</label>
+          <select formControlName="employmentType">
+            <option value="">Select</option>
+    
+            <option *ngFor="let opt of employmentTypeOptions" [value]="opt.value">{{ opt.label }}</option>
+          </select>
+          <div class="error-message" *ngIf="(submitted || loanForm.get('employmentType')?.touched) && loanForm.get('employmentType')?.errors">
+            {{getErrorMessage('employmentType')}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Common Fields -->
+    <div class="form-section" *ngIf="loanType">
+      <h3>Personal Information</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input 
+            type="text" 
+            formControlName="name" 
+            placeholder="Enter your full name"
+            [readonly]="isLoggedIn"
+            [class.readonly-field]="isLoggedIn">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('name')?.touched) && loanForm.get('name')?.errors">
+            {{getErrorMessage('name')}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input 
+            type="email" 
+            formControlName="email" 
+            placeholder="Enter your email"
+            [readonly]="isLoggedIn"
+            [class.readonly-field]="isLoggedIn">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('email')?.touched) && loanForm.get('email')?.errors">
+            {{getErrorMessage('email')}}
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input 
+            type="tel" 
+            formControlName="phone" 
+            placeholder="Enter your phone number"
+            [readonly]="isLoggedIn"
+            [class.readonly-field]="isLoggedIn">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('phone')?.touched) && loanForm.get('phone')?.errors">
+            {{getErrorMessage('phone')}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-section" *ngIf="loanType">
+      <h3>Loan Details</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Requested Amount (₹)</label>
+          <input type="number" formControlName="requestedAmount" placeholder="Enter amount">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('requestedAmount')?.touched) && loanForm.get('requestedAmount')?.errors">
+            {{getErrorMessage('requestedAmount')}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Tenure (months)</label>
+          <input type="number" formControlName="requestedTenure" placeholder="Enter tenure">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('requestedTenure')?.touched) && loanForm.get('requestedTenure')?.errors">
+            {{getErrorMessage('requestedTenure')}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Home Loan Specific Fields -->
+    <div class="form-section" *ngIf="loanType === 'HOME'">
+      <h3>Property Details</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Down Payment (%)</label>
+          <input type="number" formControlName="downPayment" placeholder="Enter down payment percentage">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('downPayment')?.touched) && loanForm.get('downPayment')?.errors">
+            {{getErrorMessage('downPayment')}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Property Address</label>
+          <textarea formControlName="propertyAddress" placeholder="Enter property address"></textarea>
+          <div class="error-message" *ngIf="(submitted || loanForm.get('propertyAddress')?.touched) && loanForm.get('propertyAddress')?.errors">
+            {{getErrorMessage('propertyAddress')}}
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Property Papers</label>
+          <input type="file" (change)="onFileChange($event, 'propertyPapers')" accept=".pdf,.doc,.docx">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('propertyPapers')?.touched) && loanForm.get('propertyPapers')?.errors">
+            {{getErrorMessage('propertyPapers')}}
+          </div>
+          <div class="error-message" *ngIf="fileError">{{fileError}}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Personal Loan Specific Fields -->
+    <div class="form-section" *ngIf="loanType === 'PERSONAL'">
+      <h3>Employment Details</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Salary Slips</label>
+          <input type="file" (change)="onFileChange($event, 'salarySlips')" accept=".pdf,.doc,.docx">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('salarySlips')?.touched) && loanForm.get('salarySlips')?.errors">
+            {{getErrorMessage('salarySlips')}}
+          </div>
+          <div class="error-message" *ngIf="fileError">{{fileError}}</div>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- Gold Loan Specific Fields -->
+    <div class="form-section" *ngIf="loanType === 'GOLD'">
+      <h3>Gold Details</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Gold Purity</label>
+          <input type="text" formControlName="goldPurity" placeholder="Enter gold purity (e.g., 24K)">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('goldPurity')?.touched) && loanForm.get('goldPurity')?.errors">
+            {{getErrorMessage('goldPurity')}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Gold Weight (grams)</label>
+          <input type="number" formControlName="goldWeight" placeholder="Enter gold weight">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('goldWeight')?.touched) && loanForm.get('goldWeight')?.errors">
+            {{getErrorMessage('goldWeight')}}
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Gold Valuation Report</label>
+          <input type="file" (change)="onFileChange($event, 'goldValuation')" accept=".pdf,.doc,.docx">
+          <div class="error-message" *ngIf="(submitted || loanForm.get('goldValuation')?.touched) && loanForm.get('goldValuation')?.errors">
+            {{getErrorMessage('goldValuation')}}
+          </div>
+          <div class="error-message" *ngIf="fileError">{{fileError}}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-actions" *ngIf="loanType">
+      <button type="submit" [disabled]="!isFormValid() || isSubmitting">
+        <span *ngIf="!isSubmitting">Submit Application</span>
+        <span *ngIf="isSubmitting">Submitting...</span>
+      </button>
+    </div>
+    <div class="error-message global-error" *ngIf="submissionError">
+      {{submissionError}}
+    </div>
+  </form>
+
+  <app-success-modal 
+    *ngIf="showSuccessModal"
+    (close)="onModalClose()"
+    (ok)="onModalOk()">
+  </app-success-modal>
+</div>

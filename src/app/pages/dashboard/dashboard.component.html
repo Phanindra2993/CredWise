@@ -1,0 +1,96 @@
+<div class="dashboard-container">
+  <header class="dashboard-header">
+    <h2>Get Instant Loans</h2>
+    <p class="subtitle">Choose from our wide range of loan products</p>
+  </header>
+
+  <section class="cards-container">
+    <article class="card-wrapper" *ngFor="let product of loanProducts">
+      <nz-card class="loan-card" nzHoverable>
+        <div class="card-image-container">
+          <img [src]="product.image" [alt]="product.title" class="card-image" />
+        </div>
+        
+        <div class="card-content">
+          <h3 class="card-title">{{ product.title }}</h3>
+          <p class="card-description">{{ product.description }}</p>
+          
+          <div class="loan-info">
+            <div class="amount-info">
+              <span class="amount-label">Max Loan Amount</span>
+              <span class="amount-value">₹{{ product.maxLoanAmount | number:'1.0-0' }}</span>
+            </div>
+            <button nz-button nzType="primary" class="apply-button" [routerLink]="['/loan-details',product.id]" >
+              Apply Now
+            </button>
+          </div>
+        </div>
+      </nz-card>
+    </article>
+  </section>
+
+  <!-- Eligibility Form Section -->
+  <section class="eligibility-section">
+    <h2 class="eligibility-title">
+      Check eligibility in just <span class="highlight">easy Step</span>
+    </h2>
+    <p class="eligibility-subtitle">
+      Get a quick personal loan up to ₹5 Lakh at an best interest rate
+    </p>
+    <form [formGroup]="eligibilityForm" (ngSubmit)="onSubmit()" class="eligibility-form">
+      <div class="form-row">
+        <nz-form-control class="form-control">
+          <nz-input-group >
+            <input nz-input formControlName="name" placeholder="Enter Your Name" />
+          </nz-input-group>
+          <div class="error-message" *ngIf="(eligibilityForm.get('name')?.touched || submitted) && eligibilityForm.get('name')?.errors">
+            {{ getErrorMessage('name') }}
+          </div>
+        </nz-form-control>
+        <nz-form-control class="form-control">
+          <nz-input-group >
+            <input nz-input formControlName="phone" placeholder="Enter Phone No." />
+          </nz-input-group>
+          <div class="error-message" *ngIf="(eligibilityForm.get('phone')?.touched || submitted) && eligibilityForm.get('phone')?.errors">
+            {{ getErrorMessage('phone') }}
+          </div>
+        </nz-form-control>
+      </div>
+      <div class="form-row">
+        <nz-form-control class="form-control">
+          <nz-input-group >
+            <input nz-input formControlName="amount" type="number" placeholder="Required Amount" />
+          </nz-input-group>
+          <div class="error-message" *ngIf="(eligibilityForm.get('amount')?.touched || submitted) && eligibilityForm.get('amount')?.errors">
+            {{ getErrorMessage('amount') }}
+          </div>
+        </nz-form-control>
+        <nz-form-control class="form-control">
+          <nz-select formControlName="purpose"  nzPlaceHolder="Select purpose of Loan" >
+            <nz-option *ngFor="let purpose of loanPurposes" [nzValue]="purpose" [nzLabel]="purpose"></nz-option>
+          </nz-select>
+          <div class="error-message" *ngIf="(eligibilityForm.get('purpose')?.touched || submitted) && eligibilityForm.get('purpose')?.errors">
+            {{ getErrorMessage('purpose') }}
+          </div>
+        </nz-form-control>
+      </div>
+      <div class="form-row submit-row">
+        <button nz-button nzType="primary" class="submit-btn" [disabled]="eligibilityForm.invalid">
+          Submit
+        </button>
+      </div>
+    </form>
+  </section>
+
+  <!-- How it Works Section -->
+  <section class="how-it-works-section">
+    <h2 class="how-it-works-title">How it <span class="highlight">Works</span></h2>
+    <div class="how-it-works-steps">
+      <div class="how-it-works-step" *ngFor="let step of howItWorksSteps">
+        <div class="step-circle">{{ step.stepNumber }}</div>
+        <h3 class="step-title">{{ step.title }}</h3>
+        <p class="step-description">{{ step.description }}</p>
+      </div>
+    </div>
+  </section>
+</div>

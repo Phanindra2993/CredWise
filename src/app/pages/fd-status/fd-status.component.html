@@ -1,0 +1,37 @@
+<div class="fd-status-container">
+  <h2>My Fixed Deposit Applications</h2>
+  <div style="text-align: center;" class="error-message" *ngIf="error">{{ error }}</div>
+  <table class="fd-status-table" *ngIf="fdApplications?.length; else noData">
+    <thead>
+      <tr>
+        <th>FD Type</th>
+        <th>Amount</th>
+        <th>Duration (months)</th>
+        <th>Interest Rate (%)</th>
+        <th>Maturity Date</th>
+        <th>Maturity Amount</th>
+        <th>Applied On</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let app of fdApplications">
+        <td>{{ app.fdTypeName || 'N/A' }}</td>
+        <td>₹{{ app.amount | number:'1.0-0' }}</td>
+        <td>{{ app.duration }}</td>
+        <td>{{ app.interestRate }}</td>
+        <td>{{ app.maturityDate ? (app.maturityDate | date:'mediumDate') : '-' }}</td>
+        <td>{{ app.maturityAmount ? ('₹' + (app.maturityAmount | number:'1.0-0')) : '-' }}</td>
+        <td>{{ app.createdAt | date:'mediumDate' }}</td>
+        <td>
+          <span class="status-badge" [ngClass]="statusClass(app.status)">
+            {{ statusText(app.status) }}
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <ng-template #noData>
+    <div class="no-data">No FD applications found.</div>
+  </ng-template>
+</div>

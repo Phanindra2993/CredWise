@@ -1,0 +1,52 @@
+.loan-status-container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1a237e;
+      font-weight: 700;
+    }
+  
+    .loan-status-table {
+      width: 100%;
+      border-collapse: collapse;
+      th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f5f5f5;
+        font-weight: 600;
+      }
+      tr:last-child td {
+        border-bottom: none;
+      }
+    }
+  
+    .status-badge {
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 0.9em;
+      font-weight: 500;
+      &.approved { background-color: #e6f4ea; color: #1e7e34; }
+      &.rejected { background-color: #fbe9e7; color: #d32f2f; }
+      &.processing { background-color: #e3f2fd; color: #1976d2; }
+      &.review { background-color: #fff3e0; color: #f57c00; }
+      &.collected { background-color: #e8f5e9; color: #388e3c; }
+      &.pending { background-color: #f5f5f5; color: #616161; }
+    }
+  
+    .no-data {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-style: italic;
+    }
+  }

@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "https://www.axisbank.com/images/default-source/progress-with-us_new/minimum-and-maximum-tenure-for-home-loans.jpg?sfvrsn=fb221c56_2",
+      "title": "Home Loan for First-Time Buyers",
+      "description": "Low-interest home loans with flexible tenure for your dream home.",
+      "maxLoanAmount": 8000000,
+      "loanType": "HOME",
+      "loanDetail": {
+        "interestRate": 8.25,
+        "tenureMonths": 240,
+        "processingFee": 10000,
+        "downPaymentPercentage": 20,
+        "repaymentType": "EMI",
+        "documentsRequired": [
+          "PAN Card",
+          "Aadhaar Card",
+          "Income Proof",
+          "Property Papers"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://www.indusind.com/iblogs/wp-content/uploads/Apply-Instant-Personal-Loan-in-1-Hour-in-Emergency-min.jpg",
+      "title": "Instant Personal Loan for Quick Needs",
+      "description": "Quick approval personal loans for all your needs — no collateral required.",
+      "maxLoanAmount": 500000,
+      "loanType": "PERSONAL",
+      "loanDetail": {
+        "interestRate": 11.5,
+        "tenureMonths": 36,
+        "processingFee": 1500,
+        "minSalaryRequired": 25000,
+        "repaymentType": "EMI",
+        "documentsRequired": [
+          "PAN Card",
+          "Aadhaar Card",
+          "Salary Slips (last 3 months)"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/blog/what-is-the-process-of-pledging-your-gold-to-secure-high-value-d.webp",
+      "title": "Gold Loan Against Ornaments",
+      "description": "Get instant cash against your gold with minimal documentation.",
+      "maxLoanAmount": 200000,
+      "loanType": "GOLD",
+      "loanDetail": {
+        "interestRate": 12,
+        "tenureMonths": 12,
+        "processingFee": 500,
+        "goldPurityRequired": "18K - 24K",
+        "repaymentType": "EMI",
+        "documentsRequired": [
+          "PAN Card",
+          "Aadhaar Card",
+          "Gold Valuation Report"
+        ]
+      }
+    }
+  ],
+  
+  "paymentTransactions": [
+    {
+      "TransactionId": 1,
+      "LoanApplicationId": 101,
+      "RepaymentId": 1001,
+      "Amount": 5000,
+      "PaymentDate": "2024-06-20T10:30:00Z",
+      "PaymentMethod": "UPI",
+      "TransactionStatus": "Success",
+      "TransactionReference": "TXN123456",
+      "IsActive": true,
+      "CreatedAt": "2024-06-20T10:30:00Z",
+      "CreatedBy": "user1"
+    },
+    {
+      "TransactionId": 2,
+      "LoanApplicationId": 102,
+      "RepaymentId": 1002,
+      "Amount": 7500,
+      "PaymentDate": "2024-06-21T11:00:00Z",
+      "PaymentMethod": "NetBanking",
+      "TransactionStatus": "Pending",
+      "TransactionReference": "TXN654321",
+      "IsActive": true,
+      "CreatedAt": "2024-06-21T11:00:00Z",
+      "CreatedBy": "user2"
+    },
+    {
+      "TransactionId": 3,
+      "LoanApplicationId": 103,
+      "RepaymentId": 1003,
+      "Amount": 3000,
+      "PaymentDate": "2024-06-22T09:15:00Z",
+      "PaymentMethod": "Card",
+      "TransactionStatus": "Failed",
+      "TransactionReference": "TXN789012",
+      "IsActive": true,
+      "CreatedAt": "2024-06-22T09:15:00Z",
+      "CreatedBy": "user3"
+    },
+    {
+      "id": "1b4d",
+      "amount": 34,
+      "paymentMethod": "UPI"
+    }
+  ]
+  
+ 
+}

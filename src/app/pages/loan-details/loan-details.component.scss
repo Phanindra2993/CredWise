@@ -1,0 +1,265 @@
+.loan-details-layout {
+  background: #f4f7fa;
+  min-height: 100vh;
+
+  .loan-header {
+    padding: 2rem 2rem 1rem 2rem;
+    /* Remove background and color for title */
+    background: transparent;
+    color: #000;  /* Default black or you can choose any color */
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-left: 12px;
+    }
+  }
+
+  .loan-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+
+    .top-row {
+      display: grid;
+  grid-template-columns: 3fr 2fr; /* 60% / 40% approx */
+  gap: 2rem;
+  width: 100%;
+  max-width: 950px;
+  margin-bottom: 1rem;
+
+      .image-container {
+        /* Remove background and box shadow */
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        min-width: 320px;
+        height: 300px;
+        display: flex;
+        align-items: stretch; /* stretch image container vertically */
+        justify-content: center;
+
+        img {
+          width: 100%;
+          height: 100%; /* Fill container */
+          object-fit: cover;
+          border-radius: 0;
+          box-shadow: none;
+          height: 370px; /* Match approx height of EMI calculator */
+          min-height: 220px;
+          border-radius: 8px;
+          min-height: 220px;
+          box-shadow: none;
+        }
+      }
+
+      .emi-calculator {
+        background: #fffde7;
+        border-radius: 12px;
+        padding: 2rem 2rem;
+        box-shadow: 0 2px 8px rgba(255, 193, 7, 0.07);
+        text-align: left;
+        min-width: 320px;
+        min-height: 300px;  /* Set explicit height to match image */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;  /* Align to top */
+        h2 {
+          color: #ff9800;
+          font-size: 1.3rem;
+          margin-bottom: 1.2rem;
+          text-align: center;
+        }
+        .form-group {
+          margin-bottom: 1.1rem;
+          display: flex;
+          align-items: center;
+          label {
+            width: 130px;
+            font-size: 1rem;
+            color: #333;
+            margin-right: 0.5rem;
+          }
+          input {
+            flex: 1;
+            padding: 0.5rem;
+            border: 1px solid #bdbdbd;
+            border-radius: 4px;
+            font-size: 1rem;
+          }
+        }
+        /* Move button below inputs */
+        button[type='submit'] {
+          margin-top: 0.5rem;
+          align-self: flex-end;
+          background: #ff9800;
+          color: #fff;
+          border: none;
+          border-radius: 10px;
+          padding: 0.6rem 1.5rem;
+          font-weight: 600;
+          cursor: pointer;
+          transition: background 0.2s;
+          &:hover {
+            background: #e65100;
+          }
+        }
+        .emi-result {
+          margin-top: 1.2rem;
+          font-size: 1.1rem;
+          color: #1976d2;
+          text-align: center;
+        }
+      }
+    }
+
+    .details-section {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      padding: 2rem 2rem 2rem 2rem;
+      max-width: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      transition: box-shadow 0.3s ease;
+      
+
+      h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+        color: #1976d2;
+        font-weight: 600;
+      }
+
+      .loan-info {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.2rem;
+
+        .info-box {
+          background: #f9fafb;
+          padding: 0.7rem 1rem;
+          border-radius: 10px;
+          border: 1px solid #e0e0e0;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+          transition: box-shadow 0.2s ease;
+          min-height: 70px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          &:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+          }
+
+          h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.3rem;
+          }
+
+          p {
+            font-size: 1.05rem;
+            color: #555;
+            margin: 0;
+            word-break: break-word;
+          }
+        }
+
+        /* Make description span full width */
+        .info-box:first-child {
+          grid-column: 1 / -1;
+          min-height: 90px;
+          padding: 1.2rem 1.5rem;
+        }
+      }
+
+      .action {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0.5rem;
+      }
+
+      .proceed-btn {
+        background: #1890ff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 0.6rem 1.8rem;
+        font-weight: 600;
+        font-size: 1rem;
+        box-shadow: 0 2px 8px rgba(24, 144, 255, 0.2);
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+        &:hover {
+          background: #096dd9;
+        }
+        &:focus {
+          outline: none;
+          box-shadow: 0 0 0 3px rgba(24, 144, 255, 0.4);
+        }
+      }
+    }
+  }
+}
+
+/* Responsive tweaks */
+@media (max-width: 1100px) {
+  .loan-details-layout {
+    .loan-main-content {
+      .top-row {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+        .image-container, .emi-calculator {
+          min-width: unset;
+          width: 100%;
+          min-height: 320px; /* Keep height consistent */
+        }
+      }
+      .details-section {
+        padding: 1.2rem 0.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .loan-details-layout {
+    .loan-header {
+      padding: 1rem 0.5rem 0.5rem 0.5rem;
+      h1 {
+        font-size: 1.3rem;
+      }
+    }
+    .loan-main-content {
+      padding: 0.5rem 0;
+      .top-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        .image-container, .emi-calculator {
+          width: 100%;
+          min-width: unset;
+          padding: 1rem 0.5rem;
+          height: 220px; /* reduced height on mobile */
+        }
+      }
+      .details-section {
+        padding: 0.7rem 0.2rem;
+      }
+      .proceed-btn {
+        font-size: 1rem;
+        align-self: flex-end;
+      }
+    }
+  }
+}

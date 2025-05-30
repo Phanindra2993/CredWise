@@ -1,0 +1,126 @@
+<div class="apply-form-container">
+  <h2>Fixed Deposit Application Form</h2>
+  
+  <form [formGroup]="fdForm" (ngSubmit)="submitFDApplication()">
+    <!-- FD Type Selection -->
+    <div class="form-section">
+      <h3>Select FD Type</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>FD Type</label>
+          <select formControlName="fdTypeId" class="fd-type-select">
+            <option value="">Select a FD type</option>
+            <option *ngFor="let type of fdTypes" [ngValue]="type.fdTypeId">
+              {{type.name}} ({{type.interestRate}}% p.a.{{type.fdTypeId}} months)
+            </option>
+          </select>
+          <div class="error-message" *ngIf="(submitted || fdForm.get('fdTypeId')?.touched) && fdForm.get('fdTypeId')?.errors">
+            {{getErrorMessage('fdTypeId')}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Personal Information -->
+    <div class="form-section">
+      <h3>Personal Information</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" formControlName="name" placeholder="Enter your full name" [readonly]="isLoggedIn">
+          <div class="error-message" *ngIf="(submitted || fdForm.get('name')?.touched) && fdForm.get('name')?.errors">
+            {{getErrorMessage('name')}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" formControlName="email" placeholder="Enter your email" [readonly]="isLoggedIn">
+          <div class="error-message" *ngIf="(submitted || fdForm.get('email')?.touched) && fdForm.get('email')?.errors">
+            {{getErrorMessage('email')}}
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" formControlName="phone" placeholder="Enter your phone number" [readonly]="isLoggedIn">
+          <div class="error-message" *ngIf="(submitted || fdForm.get('phone')?.touched) && fdForm.get('phone')?.errors">
+            {{getErrorMessage('phone')}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FD Details -->
+    <div class="form-section">
+      <h3>FD Details</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Amount (₹)</label>
+          <input type="number" formControlName="amount" placeholder="Enter amount">
+          <div class="error-message" *ngIf="(submitted || fdForm.get('amount')?.touched) && fdForm.get('amount')?.errors">
+            {{getErrorMessage('amount')}}
+          </div>
+        </div>
+         <div class="form-group">
+          <label>Duration</label>
+          <input type="text" formControlName="duration" readonly>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Interest Rate (%)</label>
+          <input type="text" formControlName="interestRate" readonly>
+        </div>
+        <div class="form-group">
+          <label>Maturity Amount (₹)</label>
+          <input type="number" formControlName="maturityAmount" readonly>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Maturity Date</label>
+          <input type="text" formControlName="maturityDate" readonly>
+        </div>
+      </div>
+    </div>
+
+    <!-- Documents -->
+    <div class="form-section">
+      <h3>Required Documents</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>PAN Card</label>
+          <input type="file" (change)="onFileChange($event, 'panCard')" accept=".pdf,.jpg,.jpeg,.png">
+          <div class="error-message" *ngIf="(submitted || fdForm.get('panCard')?.touched) && fdForm.get('panCard')?.errors">
+            {{getErrorMessage('panCard')}}
+          </div>
+          <div class="error-message" *ngIf="fileError">{{fileError}}</div>
+        </div>
+        <div class="form-group">
+          <label>Address Proof</label>
+          <input type="file" (change)="onFileChange($event, 'addressProof')" accept=".pdf,.jpg,.jpeg,.png">
+          <div class="error-message" *ngIf="(submitted || fdForm.get('addressProof')?.touched) && fdForm.get('addressProof')?.errors">
+            {{getErrorMessage('addressProof')}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" [disabled]="!isFormValid() || isSubmitting">
+        <span *ngIf="!isSubmitting">Submit Application</span>
+        <span *ngIf="isSubmitting">Submitting...</span>
+      </button>
+    </div>
+    <div class="error-message global-error" *ngIf="submissionError">
+      {{submissionError}}
+    </div>
+  </form>
+
+  <app-success-modal 
+    *ngIf="showSuccessModal"
+    (close)="onModalClose()"
+    (ok)="onModalOk()">
+  </app-success-modal>
+</div>

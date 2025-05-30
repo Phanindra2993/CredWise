@@ -1,0 +1,128 @@
+<div class="loan-details-layout">
+  <!-- Header -->
+  <header class="loan-header">
+    <h1>{{ loanProductDetails?.title }}</h1>
+  </header>
+
+  <div class="loan-main-content">
+    <!-- Top Row: Image and EMI Calculator side by side -->
+    <div class="top-row">
+      <!-- Image -->
+      <div class="image-container">
+        <img [src]="loanProductDetails?.image" [alt]="loanProductDetails?.title" />
+      </div>
+
+      <!-- EMI Calculator -->
+      <div class="emi-calculator">
+        <h2>EMI Calculator</h2>
+        <form #emiForm="ngForm" (ngSubmit)="calculateEMI()">
+          <div class="form-group">
+            <label>Loan Amount (₹)</label>
+            <input type="number" [(ngModel)]="principal" name="amount" min='10' max='10000000' required #principalModel="ngModel" nz-input (ngModelChange)="onPrincipalChange($event)" />
+            <div class="error-message" *ngIf="emiFormSubmitted && getEmiError('principal')">
+              {{ getEmiError('principal') }}
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Interest Rate (%)</label>
+            <input type="number" [(ngModel)]="annualInterestRate" name="interest" required min="1" max="20" step="0.01" #interestModel="ngModel" nz-input />
+          </div>
+          <div class="form-group">
+            <label>Tenure (months)</label>
+            <input type="number" [(ngModel)]="loanTermMonths" name="tenure" required min="1" max="360" #tenureModel="ngModel" nz-input />
+          </div>
+          <button nz-button nzType="primary" type="submit" [disabled]="!isEmiFormValid()">Calculate EMI</button>
+        </form>
+        <div *ngIf="emiResult !== null" class="emi-result">
+          <strong>EMI: ₹{{ emiResult | number:'1.0-2' }}</strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loan Details -->
+    <!-- <div class="details-section">
+      <div class="loan-info">
+        <h2>Loan Details</h2>
+        <p><strong>Description:</strong> {{ loanProductDetails?.description }}</p>
+        <p><strong>Loan Type:</strong> {{ loanProductDetails?.loanType }}</p>
+        <p><strong>Max Loan Amount:</strong> ₹{{ loanProductDetails?.maxLoanAmount | number }}</p>
+        <p><strong>Interest Rate:</strong> {{ loanProductDetails?.loanDetail?.interestRate }}%</p>
+        <p><strong>Tenure:</strong> {{ loanProductDetails?.loanDetail?.tenureMonths }} months</p>
+        <p><strong>Processing Fee:</strong> ₹{{ loanProductDetails?.loanDetail?.processingFee }}</p>
+        <p *ngIf="loanProductDetails?.loanDetail?.downPaymentPercentage"><strong>Down Payment:</strong> {{ loanProductDetails?.loanDetail?.downPaymentPercentage }}%</p>
+        <p *ngIf="loanProductDetails?.loanDetail?.minSalaryRequired"><strong>Min Salary:</strong> ₹{{ loanProductDetails?.loanDetail?.minSalaryRequired | number }}</p>
+        <p *ngIf="loanProductDetails?.loanDetail?.goldPurityRequired"><strong>Gold Purity:</strong> {{ loanProductDetails?.loanDetail?.goldPurityRequired }}</p>
+        <p><strong>Repayment Type:</strong> {{ loanProductDetails?.loanDetail?.repaymentType }}</p>
+        <p><strong>Documents Required:</strong></p>
+        <ul>
+          <li *ngFor="let doc of loanProductDetails?.loanDetail?.documentsRequired">{{ doc }}</li>
+        </ul>
+      </div>
+      <button nz-button nzType="primary" class="proceed-btn">Proceed Now</button>
+    </div> -->
+
+    <div class="details-section">
+      <h2>Loan Details</h2>
+      <div class="loan-info">
+        <div class="info-box">
+          <h4>Description</h4>
+          <p>{{ loanProductDetails?.description }}</p>
+        </div>
+        <div class="info-box">
+          <h4>Loan Type</h4>
+          <p>{{ loanProductDetails?.loanType }}</p>
+        </div>
+        <div class="info-box">
+          <h4>Max Loan Amount</h4>
+          <p>₹{{ loanProductDetails?.maxLoanAmount | number }}</p>
+        </div>
+        <div class="info-box">
+          <h4>Interest Rate</h4>
+          <p>{{ loanProductDetails?.loanDetail?.interestRate }}%</p>
+        </div>
+        <div class="info-box">
+          <h4>Tenure</h4>
+          <p>{{ loanProductDetails?.loanDetail?.tenureMonths }} months</p>
+        </div>
+        <div class="info-box">
+          <h4>Processing Fee</h4>
+          <p>₹{{ loanProductDetails?.loanDetail?.processingFee }}</p>
+        </div>
+        <div class="info-box" *ngIf="loanProductDetails?.loanDetail?.downPaymentPercentage">
+          <h4>Down Payment</h4>
+          <p>{{ loanProductDetails?.loanDetail?.downPaymentPercentage }}%</p>
+        </div>
+        <div class="info-box" *ngIf="loanProductDetails?.loanDetail?.minSalaryRequired">
+          <h4>Min Salary</h4>
+          <p>₹{{ loanProductDetails?.loanDetail?.minSalaryRequired | number }}</p>
+        </div>
+        <div class="info-box" *ngIf="loanProductDetails?.loanDetail?.goldPurityRequired">
+          <h4>Gold Purity</h4>
+          <p>{{ loanProductDetails?.loanDetail?.goldPurityRequired }}</p>
+        </div>
+        <div class="info-box">
+          <h4>Repayment Type</h4>
+          <p>{{ loanProductDetails?.loanDetail?.repaymentType }}</p>
+        </div>
+        <div class="info-box" *ngIf="loanProductDetails?.loanDetail?.documentsRequired?.length">
+          <h4>Documents Required</h4>
+          <ul>
+            <li *ngFor="let doc of loanProductDetails?.loanDetail?.documentsRequired">{{ doc }}</li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="action">
+        <button nz-button nzType="primary" class="proceed-btn" [routerLink]="['/apply-form', loanProductDetails?.id]" >Proceed Now</button>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+    
+  </div>
+</div>

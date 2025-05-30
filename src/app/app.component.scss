@@ -1,0 +1,176 @@
+:host {
+  display: flex;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-layout {
+  height: 100vh;
+}
+
+.menu-sidebar {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+}
+
+.header-trigger {
+  height: 64px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s, padding 0s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.sidebar-logo {
+  position: relative;
+  height: 64px;
+  padding-left: 24px;
+  overflow: hidden;
+  line-height: 64px;
+  background: #001529;
+  transition: all 0.3s;
+}
+
+.sidebar-logo img {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  vertical-align: middle;
+}
+
+.sidebar-logo h1 {
+  display: inline-block;
+  margin: 0 0 0 20px;
+  // color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+  background: linear-gradient(90deg, #FFC107 0%, #1890FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+nz-header {
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  
+  span:first-child{
+    cursor: pointer;
+  }
+}
+
+.inner-content {
+  background: #fff;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Menu item alignment */
+.menu-item-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-icon {
+  width: 20px;
+  text-align: center;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.menu-text {
+  flex-grow: 1;
+  transition: opacity 0.3s;
+}
+
+/* Fix Ant Design's default padding */
+.ant-menu-item,
+.ant-menu-submenu-title {
+  padding-left: 24px !important;
+
+}
+
+.ant-menu-inline .ant-menu-item {
+  padding-left: 24px !important;
+}
+
+.ant-menu-submenu-arrow {
+  right: 16px;
+}
+
+/* Collapsed state styles */
+.ant-menu-inline-collapsed {
+  width: 80px !important;
+}
+
+.ant-menu-inline-collapsed .menu-text,
+.ant-menu-inline-collapsed .ant-menu-submenu-arrow {
+  display: none;
+}
+
+.ant-menu-inline-collapsed .menu-icon {
+  margin-right: 0;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 10px;
+      // border: 2px solid red;
+
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+  padding: 0 calc(50% - 12px) !important;
+}
+
+.ant-menu-inline-collapsed .ant-menu-submenu-title .menu-icon {
+  margin: 0 auto;
+}
+
+/* Hide submenu items when collapsed */
+.ant-menu-inline-collapsed .ant-menu-submenu > ul {
+  display: none;
+}
+.footer {
+  width: 100%;
+}
+
+.auth-link{
+  cursor: pointer;
+  color: #1890ff;
+  font-weight: 600; 
+
+}
+.welcome-text{
+  margin-right: 10px;
+  color: #1890ff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+

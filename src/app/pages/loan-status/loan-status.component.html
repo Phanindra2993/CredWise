@@ -1,0 +1,39 @@
+<div class="loan-status-container">
+    <h2>My Loan Applications</h2>
+    <table class="loan-status-table" *ngIf="loanApplications?.length; else noData">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Amount</th>
+          <th>Tenure (months)</th>
+          <th>Interest Rate (%)</th>
+          <th>Decision Date</th>
+          <th>Reason</th>
+          <th>Applied On</th>
+          <th>Status</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let app of loanApplications">
+          <td>{{ app.loanType.toLowerCase() | titlecase }}
+          </td>
+          <td>₹{{ app.requestedAmount | number:'1.0-2' }}</td>
+          <td>{{ app.requestedTenure }}</td>
+          <td>{{ app.interestRate }}</td>
+         
+          <td>{{ app.decisionDate ? (app.decisionDate | date:'mediumDate') : '-' }}</td>
+          <td>{{ app.decisionReason || '-' }}</td>
+          <td>{{ app.createdAt | date:'mediumDate' }}</td>
+          <td>
+            <span class="status-badge" [ngClass]="statusClass(app.status)">
+              {{app.status }}
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <ng-template #noData>
+      <div class="no-data">No loan applications found.</div>
+    </ng-template>
+  </div>
