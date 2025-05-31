@@ -117,7 +117,7 @@
             <span class="auth-link" routerLink="/register">Sign Up</span>
           </ng-container>
           <ng-container *ngIf="isLoggedIn">
-            <span class="welcome-text">Hi, {{currentUser?.firstName}}</span>
+            <span class="welcome-text">Hi, {{(currentUser?.firstName || 'User').charAt(0).toUpperCase() + (currentUser?.firstName || 'User').slice(1)}}</span>
             <span class="auth-link" (click)="logout()">Logout</span>
           </ng-container>
         </div>

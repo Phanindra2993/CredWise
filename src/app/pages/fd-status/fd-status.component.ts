@@ -63,5 +63,5 @@ export class FdStatusComponent implements OnInit {
       case 'rejected': return 'Rejected';
       default: return status || 'Unknown';
     }
-  }
+  } 
 }

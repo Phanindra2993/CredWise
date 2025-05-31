@@ -47,6 +47,11 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
     this.loadLoanDetails();
     this.fetchGenderOptions();
     this.fetchEmploymentTypeOptions();
+
+    // Log form value on every change
+    // this.loanForm.valueChanges.subscribe(val => {
+    //   console.log('Current form value:', val);
+    // });
   }
 
   ngOnDestroy() {
@@ -66,7 +71,7 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
       requestedTenure: ['', [
         Validators.required,
         Validators.min(1),
-        Validators.max(60)
+        Validators.max(360)
       ]],
       name: ['', [
         Validators.required,
@@ -200,7 +205,8 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
   }
 
   setValidatorsForLoanType(type: string) {
-    if (this.loanType === type) return;
+  //  if (this.loanType === type) return;
+  this.loanType = type;
 
     const fieldsToReset = [
       'downPayment', 'propertyPapers', 'propertyAddress', 
@@ -226,7 +232,7 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
       this.loanForm.get('requestedAmount')?.setValidators([
         Validators.required,
         Validators.min(100000), // Minimum amount for home loan
-        Validators.max(10000000) // Maximum amount for home loan
+        Validators.max(5000000) // Maximum amount for home loan
       ]);
       this.loanForm.get('requestedTenure')?.setValidators([
         Validators.required,
@@ -279,19 +285,22 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
       if (file.size > 5 * 1024 * 1024) {
         this.fileError = 'File size should not exceed 5MB';
         this.loanForm.get(field)?.setValue(null);
+        this.loanForm.get(field)?.updateValueAndValidity();
         return;
       }
 
       const allowedTypes = ['.pdf', '.doc', '.docx', '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp'];
       const fileExtension = '.' + file.name.split('.').pop()?.toLowerCase();
       if (!allowedTypes.includes(fileExtension)) {
-        this.fileError = 'Only PDF and Word documents are allowed';
+        this.fileError = 'Only PDF, Word, and image documents are allowed';
         this.loanForm.get(field)?.setValue(null);
+        this.loanForm.get(field)?.updateValueAndValidity();
         return;
       }
 
       this.fileError = '';
       this.loanForm.get(field)?.setValue(file);
+      this.loanForm.get(field)?.updateValueAndValidity();
     }
   }
 
@@ -324,10 +333,14 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
     if (control.errors['max']) {
       if (controlName === 'requestedAmount') {
         if (this.loanType === 'PERSONAL') return 'Maximum amount is ₹5,00,000';
-        return 'Maximum amount is ₹1,00,00,000';
+        if (this.loanType === 'HOME') return 'Maximum amount is ₹50,00,000';
+        if (this.loanType === 'GOLD') return 'Maximum amount is ₹2,00,000';
+        return 'Maximum amount is ₹5,00,000';
       }
       if (controlName === 'requestedTenure') {
         if (this.loanType === 'PERSONAL') return 'Maximum tenure is 60 months';
+        if (this.loanType === 'HOME') return 'Maximum tenure is 360 months';
+        if (this.loanType === 'GOLD') return 'Maximum tenure is 36 months';
         return 'Maximum tenure is 360 months';
       }
       if (controlName === 'downPayment') return 'Down payment cannot exceed 100';
@@ -398,7 +411,7 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
     console.log('Submitting personal loan application with payload:', payload);
     console.log('Auth token:', this.authService.gettoken());
 
-    // First submit the loan application
+    // submit the loan application
     this.loanService.applyPersonalLoan(payload)
       .pipe(takeUntil(this.destroy$))
       .subscribe({
@@ -508,7 +521,7 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
     console.log('Auth token:', this.authService.gettoken());
 
     // First submit the loan application
-    this.loanService.applyHomeLoan(payload)
+          this.loanService.applyHomeLoan(payload)
             .pipe(takeUntil(this.destroy$))
             .subscribe({
               next: (response) => {
@@ -746,19 +759,41 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
 
   isFormValid(): boolean {
     if (!this.loanForm.valid) return false;
-    
+
+    // Check common required fields
+    const commonFieldsValid = 
+      !!this.loanForm.get('name')?.valid &&
+      !!this.loanForm.get('email')?.valid &&
+      !!this.loanForm.get('phone')?.valid &&
+      !!this.loanForm.get('gender')?.valid &&
+      !!this.loanForm.get('dob')?.valid &&
+      !!this.loanForm.get('aadhaar')?.valid &&
+      !!this.loanForm.get('address')?.valid &&
+      !!this.loanForm.get('income')?.valid &&
+      !!this.loanForm.get('employmentType')?.valid &&
+      !!this.loanForm.get('requestedAmount')?.valid &&
+      !!this.loanForm.get('requestedTenure')?.valid;
+
+    if (!commonFieldsValid) return false;
+
     if (this.loanType === 'HOME') {
-      return !!(this.loanForm.get('downPayment')?.valid && 
-                this.loanForm.get('propertyAddress')?.valid && 
-                this.loanForm.get('propertyPapers')?.value);
+      return (
+        !!this.loanForm.get('downPayment')?.valid &&
+        !!this.loanForm.get('propertyAddress')?.valid &&
+        !!this.loanForm.get('propertyPapers')?.value
+      );
     } else if (this.loanType === 'PERSONAL') {
-      return !!(this.loanForm.get('salarySlips')?.value);
+      return (
+        !!this.loanForm.get('salarySlips')?.value
+      );
     } else if (this.loanType === 'GOLD') {
-      return !!(this.loanForm.get('goldPurity')?.valid && 
-                this.loanForm.get('goldWeight')?.valid && 
-                this.loanForm.get('goldValuation')?.value);
+      return (
+        !!this.loanForm.get('goldPurity')?.valid &&
+        !!this.loanForm.get('goldWeight')?.valid &&
+        !!this.loanForm.get('goldValuation')?.value
+      );
     }
-    
+
     return false;
   }
 }

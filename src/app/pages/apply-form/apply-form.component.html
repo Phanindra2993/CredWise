@@ -178,7 +178,7 @@
       <div class="form-row">
         <div class="form-group">
           <label>Property Papers</label>
-          <input type="file" (change)="onFileChange($event, 'propertyPapers')" accept=".pdf,.doc,.docx">
+          <input type="file" (change)="onFileChange($event, 'propertyPapers')" accept=".pdf,.doc,.docx,.jpg,.png,.jpeg">
           <div class="error-message" *ngIf="(submitted || loanForm.get('propertyPapers')?.touched) && loanForm.get('propertyPapers')?.errors">
             {{getErrorMessage('propertyPapers')}}
           </div>
@@ -193,7 +193,7 @@
       <div class="form-row">
         <div class="form-group">
           <label>Salary Slips</label>
-          <input type="file" (change)="onFileChange($event, 'salarySlips')" accept=".pdf,.doc,.docx">
+          <input type="file" (change)="onFileChange($event, 'salarySlips')" accept=".pdf,.doc,.docx,.jpg,.png,.jpeg">
           <div class="error-message" *ngIf="(submitted || loanForm.get('salarySlips')?.touched) && loanForm.get('salarySlips')?.errors">
             {{getErrorMessage('salarySlips')}}
           </div>
@@ -225,7 +225,7 @@
       <div class="form-row">
         <div class="form-group">
           <label>Gold Valuation Report</label>
-          <input type="file" (change)="onFileChange($event, 'goldValuation')" accept=".pdf,.doc,.docx">
+          <input type="file" (change)="onFileChange($event, 'goldValuation')" accept=".pdf,.doc,.docx,.jpg,.png,.jpeg">
           <div class="error-message" *ngIf="(submitted || loanForm.get('goldValuation')?.touched) && loanForm.get('goldValuation')?.errors">
             {{getErrorMessage('goldValuation')}}
           </div>
