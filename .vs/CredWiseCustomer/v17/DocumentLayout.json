@@ -1,0 +1,374 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.api\\controllers\\optionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\controllers\\optionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\dtos\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\dtos\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.api\\credwisecustomer.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\credwisecustomer.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\dtos\\loanenquiryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\dtos\\loanenquiryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\mappings\\loanenquiryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\mappings\\loanenquiryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\dtos\\loanenquiryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\dtos\\loanenquiryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.api\\apiloggingfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\apiloggingfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.api\\controllers\\loanapplicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\controllers\\loanapplicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\services\\loanapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\services\\loanapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511E176E-6814-4DBE-96E2-6D152E6625F1}|CredWiseCustomer.Infrastructure\\CredWiseCustomer.Infrastructure.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.infrastructure\\repositories\\loanapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511E176E-6814-4DBE-96E2-6D152E6625F1}|CredWiseCustomer.Infrastructure\\CredWiseCustomer.Infrastructure.csproj|solutionrelative:credwisecustomer.infrastructure\\repositories\\loanapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\interfaces\\iloanapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\interfaces\\iloanapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\interfaces\\iloanapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\interfaces\\iloanapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Applications\\CredWise\\Backiness\\CredWise\\CredWise\\CredWise.Utills\\Entities\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.core\\entities\\fdtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|solutionrelative:credwisecustomer.core\\entities\\fdtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\dtos\\submitpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\dtos\\submitpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\services\\repaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\services\\repaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\phanindra bompalli\\angular\\credwise\\credwisebackendsahith\u0027s\\credwiseapp\\credwisecustomer.application\\mappings\\fdprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\mappings\\fdprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OptionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Controllers\\OptionsController.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Controllers\\OptionsController.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Controllers\\OptionsController.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Controllers\\OptionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T05:13:38.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\DTOs\\OptionDto.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\DTOs\\OptionDto.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\DTOs\\OptionDto.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\DTOs\\OptionDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T05:10:53.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\appsettings.json",
+              "RelativeToolTip": "CredWiseCustomer.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T17:15:08.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CredWiseCustomer.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj",
+              "RelativeToolTip": "CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:13:34.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoanApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Controllers\\LoanApplicationController.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Controllers\\LoanApplicationController.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Controllers\\LoanApplicationController.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Controllers\\LoanApplicationController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:55:19.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiLoggingFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\ApiLoggingFilter.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\ApiLoggingFilter.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\ApiLoggingFilter.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\ApiLoggingFilter.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:53:08.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Program.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Program.cs",
+              "ViewState": "AgIAALgAAAAAMzMzM3MvwMkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:22:49.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoanEnquiryResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\DTOs\\LoanEnquiryResponseDto.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\DTOs\\LoanEnquiryResponseDto.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\DTOs\\LoanEnquiryResponseDto.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\DTOs\\LoanEnquiryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:07:42.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoanApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Infrastructure\\Repositories\\LoanApplicationRepository.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Infrastructure\\Repositories\\LoanApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Infrastructure\\Repositories\\LoanApplicationRepository.cs",
+              "RelativeToolTip": "CredWiseCustomer.Infrastructure\\Repositories\\LoanApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:35:43.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAApwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:06:56.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoanEnquiryRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\DTOs\\LoanEnquiryRequestDto.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\DTOs\\LoanEnquiryRequestDto.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\DTOs\\LoanEnquiryRequestDto.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\DTOs\\LoanEnquiryRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:07:45.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoanEnquiryProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Mappings\\LoanEnquiryProfile.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Mappings\\LoanEnquiryProfile.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Mappings\\LoanEnquiryProfile.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Mappings\\LoanEnquiryProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:09:24.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ILoanApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Interfaces\\ILoanApplicationService.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Interfaces\\ILoanApplicationService.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Interfaces\\ILoanApplicationService.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Interfaces\\ILoanApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:34:55.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ILoanApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Interfaces\\ILoanApplicationRepository.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Interfaces\\ILoanApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Interfaces\\ILoanApplicationRepository.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Interfaces\\ILoanApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:34:52.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Services\\LoanService.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Services\\LoanService.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Services\\LoanService.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Services\\LoanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:33:48.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoanApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Services\\LoanApplicationService.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Services\\LoanApplicationService.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Services\\LoanApplicationService.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Services\\LoanApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:33:44.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Applications\\CredWise\\Backiness\\CredWise\\CredWise\\CredWise.Utills\\Entities\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Applications\\CredWise\\Backiness\\CredWise\\CredWise\\CredWise.Utills\\Entities\\AppDbContext.cs",
+              "ToolTip": "C:\\Applications\\CredWise\\Backiness\\CredWise\\CredWise\\CredWise.Utills\\Entities\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Applications\\CredWise\\Backiness\\CredWise\\CredWise\\CredWise.Utills\\Entities\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:20:30.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Fdtype.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Core\\Entities\\Fdtype.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Core\\Entities\\Fdtype.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Core\\Entities\\Fdtype.cs",
+              "RelativeToolTip": "CredWiseCustomer.Core\\Entities\\Fdtype.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:20:43.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoanController.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Controllers\\LoanController.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Controllers\\LoanController.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Api\\Controllers\\LoanController.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Controllers\\LoanController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T09:55:00.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SubmitPaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\DTOs\\SubmitPaymentDto.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\DTOs\\SubmitPaymentDto.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\DTOs\\SubmitPaymentDto.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\DTOs\\SubmitPaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:19:14.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RepaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Services\\RepaymentService.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Services\\RepaymentService.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Services\\RepaymentService.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Services\\RepaymentService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:00:53.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FdProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Mappings\\FdProfile.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Mappings\\FdProfile.cs",
+              "ToolTip": "C:\\Users\\Phanindra Bompalli\\Angular\\CredWise\\CredWiseBackendSahith\u0027s\\CredWiseApp\\CredWiseCustomer.Application\\Mappings\\FdProfile.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Mappings\\FdProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:11:02.76Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

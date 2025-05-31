@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { LoanService } from '../../../_services/loan.service';
 import { AuthService } from '../../../_services/auth.service';
 import { log } from 'ng-zorro-antd/core/logger';
+import { PaymentService } from '../../../_services/payment.service';
 @Component({
   selector: 'app-loan-status',
   imports:[CommonModule],
@@ -14,14 +15,12 @@ export class LoanStatusComponent implements OnInit {
   loanApplications: any[] = [];
   userId: number = 0;
 
-
-  constructor(private loanService: LoanService, private authService: AuthService) {}
+  constructor(private loanService: LoanService, private authService: AuthService, private paymentService: PaymentService) {}
 
  
 
 
   ngOnInit() {
-    // Dummy data for UI design
     // this.loanApplications = [
     //   {
     //     LoanApplicationId: 101,
@@ -68,7 +67,9 @@ export class LoanStatusComponent implements OnInit {
         console.log(error);
       }
 
-    });
+    });  
+   
+
   }
 
   statusClass(status: string): string {

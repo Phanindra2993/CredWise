@@ -11,6 +11,7 @@ export class PaymentService {
   private historyUrl = 'https://localhost:7037/api/Repayment/user';
   private dueInfoUrl = 'https://localhost:7037/api/Repayment/schedule';
   private paymentMethodsUrl = 'https://localhost:7037/payment-types';
+  private interestRateUrl = 'https://localhost:7001/api/LoanProduct';
 
   constructor(private http: HttpClient) { }
 
@@ -27,5 +28,9 @@ export class PaymentService {
   }
   getPaymentMethods(): Observable<any> {
     return this.http.get(`${this.paymentMethodsUrl}`);
+  }
+
+  getInterestRate(): Observable<any> {
+    return this.http.get(`${this.interestRateUrl}`);
   }
 }

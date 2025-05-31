@@ -15,6 +15,7 @@ export class RepaymentHistotyComponent implements OnInit {
   constructor(private paymentService: PaymentService) {}
 
   ngOnInit() {
+    //get payment history
     this.paymentService.getRepaymentHistory(0).subscribe({
       next: (data) => {
         console.log(data);
@@ -25,5 +26,6 @@ export class RepaymentHistotyComponent implements OnInit {
         console.log(err);
       }
     });
+   
   }
 }

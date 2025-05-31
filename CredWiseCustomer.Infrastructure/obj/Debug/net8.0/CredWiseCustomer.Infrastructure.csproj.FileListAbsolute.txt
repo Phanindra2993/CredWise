@@ -1,0 +1,156 @@
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.deps.json
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.runtimeconfig.json
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfo.cs
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWise.59175FE4.Up2Date
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\refint\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.genruntimeconfig.cache
+C:\Users\Sai Sahith Ajju\Desktop\CW\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\ref\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.deps.json
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.runtimeconfig.json
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfo.cs
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWise.59175FE4.Up2Date
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\refint\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.genruntimeconfig.cache
+C:\Users\Sai Sahith Ajju\Desktop\DupCW2\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\ref\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.deps.json
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.runtimeconfig.json
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfo.cs
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.sourcelink.json
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWise.59175FE4.Up2Date
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\refint\CredWiseCustomer.Infrastructure.dll
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.genruntimeconfig.cache
+C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\ref\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\refint\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.AssemblyReference.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfoInputs.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfo.cs
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.sourcelink.json
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.deps.json
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.runtimeconfig.json
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWise.59175FE4.Up2Date
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.genruntimeconfig.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\ref\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.deps.json
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.runtimeconfig.json
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.AssemblyReference.cache
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfoInputs.cache
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfo.cs
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWise.59175FE4.Up2Date
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\refint\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.genruntimeconfig.cache
+C:\Applications\CredWise\Business\CredBackend\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\ref\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.deps.json
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.runtimeconfig.json
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.AssemblyReference.cache
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfoInputs.cache
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfo.cs
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWise.59175FE4.Up2Date
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\refint\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.genruntimeconfig.cache
+C:\Applications\CredWise\New folder\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\ref\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.deps.json
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.runtimeconfig.json
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.AssemblyReference.cache
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfoInputs.cache
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfo.cs
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.sourcelink.json
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWise.59175FE4.Up2Date
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\refint\CredWiseCustomer.Infrastructure.dll
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.genruntimeconfig.cache
+C:\Applications\CredWise\Backiness\CredWise\CredWise\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\ref\CredWiseCustomer.Infrastructure.dll
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.deps.json
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.runtimeconfig.json
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.AssemblyInfo.cs
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.sourcelink.json
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWise.59175FE4.Up2Date
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.dll
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\refint\CredWiseCustomer.Infrastructure.dll
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.pdb
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\CredWiseCustomer.Infrastructure.genruntimeconfig.cache
+C:\Users\Phanindra Bompalli\Angular\CredWise\CredWiseBackendSahith's\CredWiseApp\CredWiseCustomer.Infrastructure\obj\Debug\net8.0\ref\CredWiseCustomer.Infrastructure.dll

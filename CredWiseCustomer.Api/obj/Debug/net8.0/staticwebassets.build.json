@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4ElMAcf5Jj/iy6yftHH1kENyuwLPdNt0ZRzWzmRZSAA=",
+  "Source": "CredWiseCustomer.Api",
+  "BasePath": "_content/CredWiseCustomer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
