@@ -7,7 +7,7 @@
         <th>FD Type</th>
         <th>Amount</th>
         <th>Duration (months)</th>
-        <!-- <th>Interest Rate (%)</th> -->
+        <th>Interest Rate (%)</th>
         <th>Maturity Date</th>
         <th>Maturity Amount</th>
         <th>Applied On</th>
@@ -19,7 +19,7 @@
         <td>{{ app.fdTypeName || 'N/A' }}</td>
         <td>₹{{ app.amount | number:'1.0-0' }}</td>
         <td>{{ app.duration }}</td>
-        <!-- <td>{{ app.interestRate }}</td> -->
+        <td>{{ app.interestRate }}</td>
         <td>{{ app.maturityDate ? (app.maturityDate | date:'mediumDate') : '-' }}</td>
         <td>{{ app.maturityAmount ? ('₹' + (app.maturityAmount | number:'1.0-0')) : '-' }}</td>
         <td>{{ app.createdAt | date:'mediumDate' }}</td>

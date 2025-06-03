@@ -63,7 +63,7 @@ export class LoginComponent {
   onSubmit() {
     if (this.loginForm.valid) {
       const formData = this.loginForm.value;
-      console.log('Login data:', formData);
+      // console.log('Login data:', formData);
 
       this.authService.login(formData).subscribe({
         next: (res) => {

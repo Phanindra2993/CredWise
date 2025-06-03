@@ -40,12 +40,12 @@
           <span class="ant-menu-submenu-arrow"></span>
         </span>
         <ul>
-          <li nz-menu-item nzMatchRouter>
+          <!-- <li nz-menu-item nzMatchRouter>
             <a routerLink="/apply-form" class="menu-item-content">
               <i class="fas fa-info-circle menu-icon"></i>
               <span class="menu-text">Apply for Loan</span>
             </a>
-          </li>
+          </li> -->
           <li nz-menu-item nzMatchRouter>
             <a routerLink="/loan-status" class="menu-item-content">
               <i class="fas fa-info-circle menu-icon"></i>
@@ -114,11 +114,24 @@
         </span>
         <div class="header-right">
           <ng-container *ngIf="!isLoggedIn">
-            <span class="auth-link" routerLink="/register">Sign Up</span>
+            <a routerLink="/login" class="auth-link">
+              <i class="fas fa-sign-in-alt"></i>
+              Login
+            </a>
+            <a routerLink="/register" class="auth-link">
+              <i class="fas fa-user-plus"></i>
+              Sign Up
+            </a>
           </ng-container>
           <ng-container *ngIf="isLoggedIn">
-            <span class="welcome-text">Hi, {{(currentUser?.firstName || 'User').charAt(0).toUpperCase() + (currentUser?.firstName || 'User').slice(1)}}</span>
-            <span class="auth-link" (click)="logout()">Logout</span>
+            <span class="welcome-text">
+              <i class="fas fa-user-circle"></i>
+              {{(currentUser?.firstName || 'User').charAt(0).toUpperCase() + (currentUser?.firstName || 'User').slice(1)}}
+            </span>
+            <a class="auth-link" (click)="logout()">
+              <i class="fas fa-sign-out-alt"></i>
+              Logout
+            </a>
           </ng-container>
         </div>
       </div>

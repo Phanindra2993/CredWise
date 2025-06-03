@@ -6,7 +6,7 @@
           <th>Product</th>
           <th>Amount</th>
           <th>Tenure (months)</th>
-          <th>Interest Rate (%)</th>
+          <!-- <th>Interest Rate (%)</th> -->
           <th>Decision Date</th>
           <th>Reason</th>
           <th>Applied On</th>
@@ -20,7 +20,7 @@
           </td>
           <td>₹{{ app.requestedAmount | number:'1.0-2' }}</td>
           <td>{{ app.requestedTenure }}</td>
-          <td>{{ app.interestRate }}</td>
+          <!-- <td>{{ app.interestRate }}</td> -->
          
           <td>{{ app.decisionDate ? (app.decisionDate | date:'mediumDate') : '-' }}</td>
           <td>{{ app.decisionReason || '-' }}</td>

@@ -183,7 +183,7 @@ export class ApplyFdComponent implements OnInit {
       if (controlName === 'email') return 'Please enter a valid email address';
     }
     if (control.errors['min']) {
-      if (controlName === 'amount') return 'Minimum FD amount is ₹5,000';
+      if (controlName === 'amount') return 'Minimum FD amount is ₹10,000';
     }
     if (control.errors['max']) {
       if (controlName === 'amount') return 'Maximum FD amount is ₹5,00,000';
@@ -199,19 +199,19 @@ export class ApplyFdComponent implements OnInit {
     this.submitted = true;
     if (this.fdForm.valid) {
       const amount = this.fdForm.get('amount')?.value;
-      if (amount < 5000 || amount > 500000) {
-        this.submissionError = 'FD amount should be between ₹5,000 and ₹5,00,000';
+      if (amount < 10000 || amount > 500000) {
+        this.submissionError = 'FD amount should be between ₹10,000 and ₹5,00,000';
         return;
       }
 
-      console.log('Form submitted:', this.fdForm.value);
+    //  console.log('Form submitted:', this.fdForm.value);
       this.isSubmitting = true;
 
       const email = this.fdForm.get('email')?.value;
       const fdTypeId = this.fdForm.get('fdTypeId')?.value;
       this.fdService.submitFDApplication({ email, fdTypeId, amount }).subscribe({
         next: (response: any) => {
-          console.log(response);
+     //     console.log(response);
           this.showSuccessModal = true;
           this.isSubmitting = false;
 

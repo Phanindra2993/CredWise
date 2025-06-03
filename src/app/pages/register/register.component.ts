@@ -14,6 +14,7 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { AuthService } from '../../../_services/auth.service';
 import { Router, RouterLink } from '@angular/router';
+import { NzMessageService } from 'ng-zorro-antd/message';
 
 @Component({
   selector: 'app-register',
@@ -39,7 +40,8 @@ export class RegisterComponent {
   constructor(
     private fb: FormBuilder,
     private authService: AuthService,
-    private router: Router
+    private router: Router,
+    private message: NzMessageService
   ) {
     this.registerForm = this.fb.group({
       firstName: ['', Validators.required],
@@ -88,6 +90,7 @@ export class RegisterComponent {
       this.authService.register(formData).subscribe({
         next: (res) => {
           console.log('Registration Success:', res);
+          this.message.success(`Hey ${formData.firstName}, registered successfully!`, { nzDuration: 4000 });
           this.router.navigate(['/login']);
         },
         error: (err) => {

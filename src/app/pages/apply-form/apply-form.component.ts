@@ -167,10 +167,12 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
 
   loadLoanDetails() {
     const loanId = Number(this.route.snapshot.paramMap.get('id'));
+    console.log('loanId', loanId);
     if (loanId) {
       this.loanService.getLoanProductById(loanId).pipe(takeUntil(this.destroy$)).subscribe({
         next: (loan) => {
           if (loan) {
+            console.log('loan details', loan);
             this.loanDetails = loan;
             this.loanType = loan.loanType;
             this.loanForm.patchValue({ loanType: loan.loanType });
@@ -212,7 +214,6 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
       'downPayment', 'propertyPapers', 'propertyAddress', 
       'salarySlips', 'goldPurity', 'goldValuation', 'goldWeight'
     ];
-
     fieldsToReset.forEach(field => {
       this.loanForm.get(field)?.clearValidators();
       this.loanForm.get(field)?.reset('', { emitEvent: false });
@@ -729,7 +730,6 @@ export class ApplyFormComponent implements OnInit, OnDestroy {
     console.error('Submission error details:', error);
     console.error('Error type:', typeof error);
     console.error('Error object:', error);
-    
     if (typeof error === 'string') {
       this.submissionError = error;
     } else if (error.error?.message) {

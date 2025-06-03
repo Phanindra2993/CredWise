@@ -69,13 +69,12 @@ export class DashboardComponent implements OnInit {
 
 
   ngOnInit(): void {
-    console.log('Dashboard: Initializing...');
     //getting loan products
     this.loanService.getLoanProducts().subscribe({
       next: (response: Loan[]) => {
         this.loanProducts = response;
         this.loanPurposes = [...new Set(response.map(loan => loan.loanType))];
-        console.log(this.loanPurposes);
+        // console.log(this.loanPurposes);
       },
       error: (error) => {
         console.error('Dashboard: Error loading products:', error);
@@ -86,7 +85,7 @@ export class DashboardComponent implements OnInit {
       next: (steps) => {
         console.log('steps',steps);
         this.howItWorksSteps = steps;
-        console.log('How It Works Steps loaded:', steps);
+        // console.log('How It Works Steps loaded:', steps);
       },
       error: (error) => {
         console.error('Error loading steps:', error);
